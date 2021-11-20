@@ -1,0 +1,101 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    max-width: 100%;     
+    overflow-x: hidden;
+}
+
+/*Customização Navbar top*/
+#navtop{
+    background-color: #252323;
+}
+
+/*Conteudo*/
+
+.center{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subline{
+    margin: 0 auto;
+    background-color: #00FFF6;
+    width: 50%;
+    height: 5px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#doe{
+
+    font-weight: 800;
+    color: black;
+    background-color: #00FFF6;
+    border-color: #00FFF6;
+}
+
+#doe:hover{
+    color: white;
+    background-color: #007975;
+}
+
+.btn-primary{
+    color: black;
+    font-weight: bolder;
+    background-color: #58af9b;
+    border-color: #58af9b;
+}
+
+.btn-primary:hover{
+    color: #58af9b;
+    border-color: #58af9b;
+    background-color: white;
+}
+
+h1{
+    font-family: 'Open Sans bold 700', sans-serif;  
+}
+
+
+p{
+    width: 48.29416224412434vw;
+    font-size: clamp(0.5em, 0.5em + 1.36vw, 1em);
+}
+
+
+
+/*Customização navbar foot*/
+#navfoot{
+    background-color: #252323;
+}
+
+#nvcontent{
+    color: #777;
+    font-size: 1.1em;
+
+}
+
+#nvcontent:hover{
+    transition: 0.2s;
+    color: white;
+}
